@@ -1,0 +1,62 @@
+.container{
+	width:1000px; 
+	margin: 0 auto;
+	
+
+}
+
+
+.omega{
+	margin-right: 0px!important;
+
+
+
+
+}
+
+
+
+
+.grid_1, .grid_2, .grid_8, .grid_5, .grid_3{
+	margin-right: 20px;
+	float: left;
+
+}
+.grid_1{
+	width: 107.5px;
+	
+}
+
+
+.grid_2{
+	width: 235px;
+	
+}
+
+.grid_8{
+	width:1000px;
+	
+}
+
+
+.grid_3{
+	width:362.5px;
+	
+}
+
+.grid_5{
+	width:617.5px;
+	
+}
+
+@media screen and (max-width: 487px){
+	.grid_1, .grid_2, .grid_8, .grid_5, .grid_3{
+		margin-right:0px;
+		float: left;
+		width: 100%;
+	}
+
+	.container{
+		width: 100%;
+	}
+}
